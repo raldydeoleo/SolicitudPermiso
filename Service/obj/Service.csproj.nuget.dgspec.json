@@ -1,0 +1,187 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\C-Rdejesus\\source\\repos\\NETCore-Api---VueJs-SPA\\api\\Service\\Service.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\C-Rdejesus\\source\\repos\\NETCore-Api---VueJs-SPA\\api\\Model\\Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\C-Rdejesus\\source\\repos\\NETCore-Api---VueJs-SPA\\api\\Model\\Model.csproj",
+        "projectName": "Model",
+        "projectPath": "C:\\Users\\C-Rdejesus\\source\\repos\\NETCore-Api---VueJs-SPA\\api\\Model\\Model.csproj",
+        "packagesPath": "C:\\Users\\C-Rdejesus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\C-Rdejesus\\source\\repos\\NETCore-Api---VueJs-SPA\\api\\Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\C-Rdejesus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\C-Rdejesus\\source\\repos\\NETCore-Api---VueJs-SPA\\api\\Persistence\\Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\C-Rdejesus\\source\\repos\\NETCore-Api---VueJs-SPA\\api\\Persistence\\Persistence.csproj",
+        "projectName": "Persistence",
+        "projectPath": "C:\\Users\\C-Rdejesus\\source\\repos\\NETCore-Api---VueJs-SPA\\api\\Persistence\\Persistence.csproj",
+        "packagesPath": "C:\\Users\\C-Rdejesus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\C-Rdejesus\\source\\repos\\NETCore-Api---VueJs-SPA\\api\\Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\C-Rdejesus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {
+              "C:\\Users\\C-Rdejesus\\source\\repos\\NETCore-Api---VueJs-SPA\\api\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\C-Rdejesus\\source\\repos\\NETCore-Api---VueJs-SPA\\api\\Model\\Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\C-Rdejesus\\source\\repos\\NETCore-Api---VueJs-SPA\\api\\Service\\Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\C-Rdejesus\\source\\repos\\NETCore-Api---VueJs-SPA\\api\\Service\\Service.csproj",
+        "projectName": "Service",
+        "projectPath": "C:\\Users\\C-Rdejesus\\source\\repos\\NETCore-Api---VueJs-SPA\\api\\Service\\Service.csproj",
+        "packagesPath": "C:\\Users\\C-Rdejesus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\C-Rdejesus\\source\\repos\\NETCore-Api---VueJs-SPA\\api\\Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\C-Rdejesus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {
+              "C:\\Users\\C-Rdejesus\\source\\repos\\NETCore-Api---VueJs-SPA\\api\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\C-Rdejesus\\source\\repos\\NETCore-Api---VueJs-SPA\\api\\Model\\Model.csproj"
+              },
+              "C:\\Users\\C-Rdejesus\\source\\repos\\NETCore-Api---VueJs-SPA\\api\\Persistence\\Persistence.csproj": {
+                "projectPath": "C:\\Users\\C-Rdejesus\\source\\repos\\NETCore-Api---VueJs-SPA\\api\\Persistence\\Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
